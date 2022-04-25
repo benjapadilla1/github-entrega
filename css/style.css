@@ -4,7 +4,6 @@
     background-color:rgb(220, 220, 188);
     list-style: none;
 }
-
 h1{
     font-size: 50px;
     text-align: center;
@@ -53,6 +52,7 @@ footer a:hover{
 .tabla{
     border-color:cornflowerblue
 }
+
 footer{
     font-size: 20px;
     margin-top: 5%;
