@@ -13,29 +13,29 @@ h1{
 }
 .titulo{
     animation-name: titulo;
-    animation-duration: 5s;
+animation-duration: 5s;
 }
 @keyframes titulo{
-    0%{
-        color: blue;
-        font-size: 32px;
-    }
-    25%{
-    color: brown;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 100px;
+0%{
+    color: blue;
+    font-size: 32px;
 }
-    50%{
-        color:chartreuse;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    75%{
-        color: dimgray;
-        font-size: 5px;
-    }
-    100%{
-        color: rgb(109, 50, 204);
-        font-size: 150px;
+25%{
+color: brown;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 100px;
+}
+50%{
+    color:chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+75%{
+    color: dimgray;
+    font-size: 5px;
+}
+100%{
+    color: rgb(109, 50, 204);
+    font-size: 150px;
 }
 }
 .lista{
