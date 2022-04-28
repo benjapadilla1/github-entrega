@@ -124,3 +124,11 @@ footer{
         gap: 5px;
     }    
     }
+/* contacto.html */
+@media screen and (max-width:1180px) {
+    .area{
+        width: 60%;
+        
+    }
+    
+}
