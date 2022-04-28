@@ -49,10 +49,15 @@ nav a:hover{
 footer a:hover{
     color: rgb(51, 91, 148);
 }
-.tabla{
-    border-color:cornflowerblue
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
 }
 
+.carousel {
+    margin-left: 350px;
+    margin-top: 15px;
+}
 footer{
     font-size: 20px;
     margin-top: 5%;
@@ -102,6 +107,7 @@ footer{
 .producto4{
     grid-area:producto4;
 }
+
 /* Fin del primer grid */
 /* Nosotros.html */
 .grid2{
