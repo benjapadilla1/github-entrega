@@ -54,10 +54,10 @@ footer a:hover{
     justify-content: space-around;
 }
 
-.carousel {
+/* .carousel {
     margin-left: 350px;
     margin-top: 15px;
-}
+} */
 footer{
     font-size: 20px;
     margin-top: 5%;
@@ -71,6 +71,11 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+@media only screen and (min-width:1250px)  {
+    .carousel{
+        margin-left: 350px
+    }
 }
 
 /* Grid del primer index */
