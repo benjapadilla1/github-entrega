@@ -1,0 +1,12 @@
+@import "../variables/variables";
+
+$titulo:(
+    tamaño: $size,
+    centro: $alinear-al-centro,
+    letra: $tipografia,
+);
+h1{
+    font-size: map-get($titulo,tamaño);
+    text-align: map-get($titulo,centro);
+    font-family: map-get($titulo,letra);
+}

@@ -1,153 +1,164 @@
-* {
+  * {
     text-decoration: none;
     color: black;
     background-color: rgb(220, 220, 188);
     list-style: none;
-}
-h1 {
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-footer {
+  }
+
+  footer {
     font-size: 20px;
     margin-top: 5%;
     text-align: right;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+  }
 
-footer a:hover {
+  footer a:hover {
     color: #335b94;
-}
-.titulo {
+  }
+
+  .lista {
+    margin: 5px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  footer {
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: right;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  footer a:hover {
+    color: #335b94;
+  }
+
+  .titulo {
     animation-name: titulo;
     animation-duration: 5s;
-}
+  }
 
-@keyframes titulo {
+  @keyframes titulo {
     0% {
-        color: blue;
-        font-size: 32px;
+      color: blue;
+      font-size: 32px;
     }
 
     25% {
-        color: brown;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 100px;
+      color: brown;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 100px;
     }
 
     50% {
-        color: chartreuse;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: chartreuse;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     75% {
-        color: dimgray;
-        font-size: 5px;
+      color: dimgray;
+      font-size: 5px;
     }
 
     100% {
-        color: rgb(109, 50, 204);
-        font-size: 150px;
+      color: rgb(109, 50, 204);
+      font-size: 150px;
     }
-}
+  }
 
-.lista {
-    margin: 5px;
-    padding: 20px;
-    font-size: 1rem;
-}
-
-nav a:hover {
+  nav a:hover {
     color: rgb(51, 91, 148);
-}
+  }
 
-.container-fluid {
+  .container-fluid {
     display: flex;
     justify-content: space-around;
-}
+  }
 
-/* .carousel {
-        margin-left: 350px;
-        margin-top: 15px;
-    } */
-.lista {
+
+  .lista {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-}
+  }
 
-@media only screen and (min-width:1250px) {
+  @media only screen and (min-width:1250px) {
     .carousel {
-        margin-left: 350px
+      margin-left: 350px
     }
-}
+  }
 
-/* Grid del primer index */
-@media only screen and (min-width:620px) and (max-width:100px) {
+  /* Grid del primer index */
+  @media only screen and (min-width:620px) and (max-width:100px) {
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
     }
-}
+  }
 
-.grid-container {
+  .grid-container {
     border: 1px solid black;
     margin: 1fr;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
-        "producto1 producto1 producto3 producto3"
-        "producto1 producto1 producto3 producto3"
-        "producto2 producto2 producto4 producto4"
-        "producto2 producto2 producto4 producto4"
+      "producto1 producto1 producto3 producto3"
+      "producto1 producto1 producto3 producto3"
+      "producto2 producto2 producto4 producto4"
+      "producto2 producto2 producto4 producto4"
     ;
-}
+  }
 
-.producto1 {
+  .producto1 {
     grid-area: producto1;
 
-}
+  }
 
-.producto2 {
+  .producto2 {
     grid-area: producto2;
-}
+  }
 
-.producto3 {
+  .producto3 {
     grid-area: producto3;
-}
+  }
 
-.producto4 {
+  .producto4 {
     grid-area: producto4;
-}
+  }
 
-/* Fin del primer grid */
-/* Nosotros.html */
-.grid2 {
+  /* Fin del primer grid */
+  /* Nosotros.html */
+  .grid2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat (2, 1fr);
     gap: 5px;
-}
+  }
 
-@media screen and (max-width:510px) {
+  @media screen and (max-width:510px) {
     .grid2 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat (4, 1fr);
-        gap: 5px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat (4, 1fr);
+      gap: 5px;
     }
-}
+  }
 
-/* contacto.html */
-@media screen and (max-width:1180px) {
+  /* contacto.html */
+  @media screen and (max-width:1180px) {
     .area {
-        width: 60%;
+      width: 60%;
 
     }
 
-}
+  }
