@@ -1,6 +1,11 @@
 @import "../variables/variables";
+* {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(220, 220, 188);
+    list-style: none;
+}
 
-.lista {
-    margin: $margin;
-    padding: $padding;
+h2{
+    font-size: large;
 }

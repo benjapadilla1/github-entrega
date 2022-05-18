@@ -1,0 +1,9 @@
+@import "../variables/variables";
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: $margin;
+    padding: $padding;
+  }

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="formulario">
         <h1>Formulario de contacto</h1>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -43,35 +43,59 @@
         </nav>
     </header>
     <main>
-        <form>
-            <fieldset>
-                <legend>Formulario de contacto</legend>
-                <label for="nombre_apellido">Nombre:</label>
-                <input type="text" name="nombre" placeholder="Escriba aqui su nombre">
-                <label for="nombre_apellido">Apellido:</label>
-                <input type="text" name="apellido" placeholder="Escriba aqui su apellido">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="true">
-                        Tipo de café
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item">Colombiano</a></li>
-                        <li><a class="dropdown-item">Brasileño</a></li>
-                    </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">Dejanos tus datos!</legend>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="Correo eléctronico" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Numero de telefono" class="form-control">
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Cuentanos su opinion" rows="7"></textarea>
+                                    </div>
+                                </div>
+        
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Subir</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
-                <div>Nos gustaria saber su opinion</div>
-                <textarea class="area" name="text" cols="150" rows="10"
-                    placeholder="Escriba aqui su opinion"></textarea>
-                <div>
-                    ¿Aceptar términos y condiciones?
-                    <input type="checkbox" name="check">
-                </div>
-                <input type="submit" value="Enviar formulario">
-                <input type="reset" value="Limpiar formulario">
-
-            </fieldset>
-        </form>
+            </div>
+        </div>
 
 
     </main>
