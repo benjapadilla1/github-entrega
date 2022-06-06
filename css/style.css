@@ -4,17 +4,16 @@
   background-color: #dcdcbc;
   list-style: none; }
 
-h2 {
-  font-size: large; }
-
 h1 {
   font-size: 50px;
   text-align: center;
   font-family: "Times New Roman", Times, serif; }
 
-nav a {
+.carousel {
+  width: 100%;
+  margin: 10px auto;
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-between; }
 
 .lista {
   display: flex;
@@ -24,6 +23,21 @@ nav a {
   margin: 5px;
   padding: 20px; }
 
+.titulo_ubi {
+  font-size: 30px;
+  display: flex;
+  justify-content: center; }
+
+.ubicacion_maps {
+  width: 80%;
+  height: 700px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between; }
+
+.container {
+  margin-right: 20px auto; }
+
 footer {
   font-size: 20px;
   margin-top: 5%;
@@ -32,10 +46,6 @@ footer {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   footer a:hover {
     color: #335b94; }
-
-@media only screen and (min-width: 1250px) {
-  .carousel {
-    margin-left: 350px; } }
 
 /* Grid del primer index */
 @media only screen and (min-width: 620px) and (max-width: 100px) {

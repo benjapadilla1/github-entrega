@@ -1,0 +1,14 @@
+@import "../variables/variables";
+
+.titulo_ubi{
+    font-size: $size_subtitulos;
+    display: flex;
+    justify-content: center;
+}
+.ubicacion_maps{
+    width: 80%;
+    height: 700px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
