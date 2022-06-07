@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka&display=swap");
 * {
   text-decoration: none;
   color: black;
@@ -23,6 +24,23 @@ h1 {
   margin: 5px;
   padding: 20px; }
 
+.titulo_leyenda {
+  font-family: 'Blaka';
+  font-size: xx-large;
+  font-style: italic;
+  display: flex;
+  justify-content: center; }
+
+.leyenda {
+  display: flex;
+  justify-content: left; }
+
+.video_titulo {
+  font-size: 25px; }
+
+.slogans {
+  font-size: 25px; }
+
 .titulo_ubi {
   font-size: 30px;
   display: flex;
@@ -34,9 +52,6 @@ h1 {
   margin: 60px auto;
   display: flex;
   justify-content: space-between; }
-
-.container {
-  margin-right: 20px auto; }
 
 footer {
   font-size: 20px;
